@@ -11,12 +11,12 @@
     <message>Helper utility that will allow budgie-welcome to perform privileged actions</message>
     <icon_name>system-run</icon_name>
     <defaults>
-      <allow_any>no</allow_any>
+      <allow_any>yes</allow_any>
       <allow_inactive>no</allow_inactive>
       <allow_active>yes</allow_active>
     </defaults>
-    <annotate key="org.freedesktop.policykit.exec.path">/usr/lib/budgie-welcome/budgie-welcome-privileged-actions</annotate>
+    <!-- <annotate key="org.freedesktop.policykit.exec.path">/usr/lib/budgie-welcome/budgie-welcome-privileged-actions</annotate> -->
     <!--development - change path to be absolute location where the actions path resides-->
-    <!--<annotate key="org.freedesktop.policykit.exec.path">/home/niyasc/Coding/budgie-welcome/budgie-welcome-privileged-actions</annotate>-->
+    <annotate key="org.freedesktop.policykit.exec.path">/home/phosphorus/Project/budgie-welcome/budgie-welcome-privileged-actions</annotate>
   </action>
 </policyconfig>
